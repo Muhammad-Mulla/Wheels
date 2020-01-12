@@ -1,0 +1,49 @@
+body{
+    padding-top: 50px;
+}
+
+section{
+    background-color:#333 ;
+    width: 420px;
+    position: absolute;
+    left: 750px;
+    border: 3px solid #333;
+    border-radius: 20px;
+}
+
+
+section form input{
+       display:block;
+       margin:auto;
+       width: 400px;
+       height: 40px;
+       border: 3px solid #333;
+       
+}
+
+section form label{
+    margin-right: 350px;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 15px;
+    font-weight: bolder;
+    color: #999;
+    text-transform: capitalize
+    
+}
+
+section form input[type="submit"]{
+    background-color: #999;
+    color: #333;
+    font-weight: bolder;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+section form input[type="email"],input[type="url"],
+input[type="tel"],input[type="datetime-local"],input[type="number"],input[list="clubs"]{
+    padding: 10px;
+    color: #777;
+    
+}
